@@ -9,7 +9,7 @@ By providing a decentralized solution, we ensure that green energy is produced, 
 
 # Powerchain
 <p align="center">
-  <img src="https://github.com/Lightency/Lightency.io/blob/main/src/graphics/powerchain.b8c01b57.png" alt="Powerchain"/>
+  <img src="https://github.com/Lightency/Powerchain/blob/main/powerchain.png" alt="Powerchain"/>
 </p>
 
 Powerchain is an energy marketplace where energy is tokenised for easier exchange and better monetisation. It offers a solution to avoid energy waste during peak hours, and ensures an easy and affordable access to electricity.
