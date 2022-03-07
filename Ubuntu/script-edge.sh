@@ -10,7 +10,7 @@ curl -o edge.jar https://github.com/Lightency/Powerchain/blob/main/Ubuntu/edge.j
 
 # creating directory for edge
 mkdir /usr/lib/openems/edge
-mv -t openems-edge.jar /usr/lib/openems/edge
+mv -t edge.jar /usr/lib/openems/edge
 # creating systemd service
 mkdir /etc/openems/edge.d
 nano /etc/systemd/system/openems/edge.service
@@ -23,7 +23,7 @@ User=root
 Group=root
 Type=notify 
 WorkingDirectory=/usr/lib/openems/edge
-ExecStart=/usr/bin/java -Dfelix.cm.dir=/etc/openems/edge.d/ -jar /usr/lib/openems/edge/openems-edge.jar 
+ExecStart=/usr/bin/java -Dfelix.cm.dir=/etc/openems/edge.d/ -jar /usr/lib/openems/edge/edge.jar 
 SuccessExitStatus=143 
 Restart=always 
 RestartSec=10 
