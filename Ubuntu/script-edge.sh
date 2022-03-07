@@ -6,7 +6,7 @@ apt-get update
 apt install default-jre
 
 #download .jar file from gihtub
-
+curl -o edge.jar https://github.com/Lightency/Powerchain/blob/main/Ubuntu/edge.jar
 
 # creating directory for edge
 mkdir /usr/lib/openems/edge
