@@ -9,11 +9,11 @@ apt install default-jre
 curl -o edge.jar https://github.com/Lightency/Powerchain/blob/main/Ubuntu/edge.jar
 
 # creating directory for edge
-mkdir /usr/lib/openems/edge
-mv -t edge.jar /usr/lib/openems/edge
+mkdir /usr/lib/edge
+mv -t edge.jar /usr/lib/edge
 # creating systemd service
-mkdir /etc/openems/edge.d
-nano /etc/systemd/system/openems/edge.service
+mkdir /etc/edge.d
+nano /etc/systemd/system/edge.service
 echo "
 [Unit]
 Description=OpenEMS Edge 
@@ -23,7 +23,7 @@ User=root
 Group=root
 Type=notify 
 WorkingDirectory=/usr/lib/openems/edge
-ExecStart=/usr/bin/java -Dfelix.cm.dir=/etc/openems/edge.d/ -jar /usr/lib/openems/edge/edge.jar 
+ExecStart=/usr/bin/java -Dfelix.cm.dir=/etc/edge.d/ -jar /usr/lib/edge/edge.jar 
 SuccessExitStatus=143 
 Restart=always 
 RestartSec=10 
