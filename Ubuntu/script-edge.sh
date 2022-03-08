@@ -10,7 +10,7 @@ curl -o edge.jar https://github.com/Lightency/Powerchain/blob/main/Ubuntu/edge.j
 
 # creating directory for edge
 mkdir /usr/lib/edge
-mv -t edge.jar /usr/lib/edge
+mv -t /usr/lib/edge edge.jar
 # creating systemd service
 mkdir /etc/edge.d
 nano /etc/systemd/system/edge.service
