@@ -1,7 +1,7 @@
 # Lightency
 
 <p align="center">
-  <img src="https://github.com/Lightency/Lightency.io/blob/main/src/graphics/logo.png" alt="Logo"/>
+  <img src="https://github.com/Lightency/Powerchain/blob/main/src/logo.png" alt="Logo"/>
 </p>
 <a href="https://www.lightency.io/#/">Lightency</a> is a green tech startup that harnesses the power of deep technologies to ensure/accelerate better access to affordable and green energy.
 
